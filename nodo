@@ -1,0 +1,9 @@
+class Nodo {
+    int contenido;
+    Nodo siguiente;
+    
+    public Nodo(int contenido) {
+        this.contenido = contenido;
+        this.siguiente = null;
+    }
+}
